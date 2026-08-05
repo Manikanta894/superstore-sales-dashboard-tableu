@@ -288,13 +288,7 @@ Requires [Tableau Desktop](https://www.tableau.com/products/desktop) 2026.2 or l
 **Sales Performance**
 <img src="images/sales-performance-terminal.png" alt="Sales Performance Dashboard" width="820">
 
-</div>
-
-<sub>Replace `screenshots/dashboard1.png` and `screenshots/dashboard2.png` with your own dashboard exports — create a `screenshots/` folder in the repo root with those two filenames, or edit the paths above to match yours.</sub>
-
-> [!NOTE]
-> This README also references two custom graphics — `assets/banner.svg` and `assets/category-margin.svg`. Create an `assets/` folder in the repo root and place both files there (provided alongside this README) so the header banner and margin chart render on GitHub.
-
+</div
 ---
 
 ## Data Verification

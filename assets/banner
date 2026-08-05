@@ -1,0 +1,50 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#150826"/>
+      <stop offset="55%" stop-color="#2A0E4A"/>
+      <stop offset="100%" stop-color="#150826"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E97627"/>
+      <stop offset="100%" stop-color="#F2A65A"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9C4DCC"/>
+      <stop offset="100%" stop-color="#C77DFF"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect width="1200" height="280" fill="url(#grid)"/>
+
+  <!-- Abstract chart motif, right side -->
+  <g transform="translate(830,60)" opacity="0.95">
+    <rect x="0"  y="150" width="26" height="30" rx="3" fill="url(#bar2)" opacity="0.55"/>
+    <rect x="36" y="120" width="26" height="60" rx="3" fill="url(#bar2)" opacity="0.7"/>
+    <rect x="72" y="90"  width="26" height="90" rx="3" fill="url(#bar1)"/>
+    <rect x="108" y="60" width="26" height="120" rx="3" fill="url(#bar1)"/>
+    <rect x="144" y="100" width="26" height="80" rx="3" fill="url(#bar2)" opacity="0.7"/>
+    <polyline points="13,150 49,120 85,90 121,60 157,100" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+    <circle cx="121" cy="60" r="5" fill="#ffffff"/>
+  </g>
+
+  <!-- Eyebrow -->
+  <text x="70" y="70" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="4" fill="#C77DFF" font-weight="600">BUSINESS ANALYTICS · MBA 2ND SEMESTER</text>
+
+  <!-- Title -->
+  <text x="68" y="128" font-family="Helvetica, Arial, sans-serif" font-size="52" fill="#FFFFFF" font-weight="700">Sales &amp; Profitability</text>
+  <text x="68" y="182" font-family="Helvetica, Arial, sans-serif" font-size="52" fill="#FFFFFF" font-weight="700">Intelligence</text>
+
+  <!-- Subtitle -->
+  <text x="70" y="220" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#B9A3D6">A Tableau diagnostic of 10,194 Superstore order lines — where the margin is made, and where it leaks.</text>
+
+  <!-- Divider -->
+  <line x1="70" y1="240" x2="1130" y2="240" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+
+  <!-- Footer stats -->
+  <text x="70" y="264" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#8A76A8">2 Dashboards&#160;&#160;&#160;·&#160;&#160;&#160;18 Worksheets&#160;&#160;&#160;·&#160;&#160;&#160;$2.32M Sales&#160;&#160;&#160;·&#160;&#160;&#160;12.56% Margin&#160;&#160;&#160;·&#160;&#160;&#160;Nagarjuna Degree College</text>
+</svg>

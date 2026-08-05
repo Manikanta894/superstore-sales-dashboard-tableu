@@ -1,0 +1,38 @@
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="good" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1B8A5A"/>
+      <stop offset="100%" stop-color="#2ECC71"/>
+    </linearGradient>
+    <linearGradient id="risk" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B8860B"/>
+      <stop offset="100%" stop-color="#E9A227"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="260" fill="#0F0B1A"/>
+  <text x="30" y="38" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#FFFFFF" font-weight="700">Profit Margin by Category</text>
+  <text x="30" y="58" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8A76A8">Profit ÷ Sales, computed from the embedded Hyper extract</text>
+
+  <!-- axis baseline -->
+  <line x1="230" y1="85" x2="230" y2="225" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- Technology 17.45% -->
+  <text x="220" y="108" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#E8E0F5" text-anchor="end">Technology</text>
+  <rect x="230" y="92" width="392" height="26" rx="4" fill="url(#good)"/>
+  <text x="632" y="110" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="700">17.4%</text>
+  <text x="890" y="110" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8A76A8" text-anchor="end">$839.9K sales</text>
+
+  <!-- Office Supplies 17.22% -->
+  <text x="220" y="150" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#E8E0F5" text-anchor="end">Office Supplies</text>
+  <rect x="230" y="134" width="387" height="26" rx="4" fill="url(#good)"/>
+  <text x="627" y="152" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="700">17.2%</text>
+  <text x="890" y="152" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8A76A8" text-anchor="end">$731.9K sales</text>
+
+  <!-- Furniture 2.61% -->
+  <text x="220" y="192" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#E8E0F5" text-anchor="end">Furniture</text>
+  <rect x="230" y="176" width="59" height="26" rx="4" fill="url(#risk)"/>
+  <text x="299" y="194" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="700">2.6%</text>
+  <text x="890" y="194" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8A76A8" text-anchor="end">$754.7K sales</text>
+
+  <text x="230" y="232" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6B5A87">Furniture sells almost as much as Technology but keeps roughly 1/7th of the margin.</text>
+</svg>

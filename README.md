@@ -281,12 +281,12 @@ Requires [Tableau Desktop](https://www.tableau.com/products/desktop) 2026.2 or l
 <div align="center">
 
 **Sales Analytics**
-<img src="screenshots/dashboard1.png" alt="Sales Analytics Dashboard" width="820">
+<img src="images/profitability-dashboard.png" alt="Sales Analytics Dashboard" width="820">
 
 <br><br>
 
 **Sales Performance**
-<img src="screenshots/dashboard2.png" alt="Sales Performance Dashboard" width="820">
+<img src="images/sales-performance-terminal.png" alt="Sales Performance Dashboard" width="820">
 
 </div>
 
